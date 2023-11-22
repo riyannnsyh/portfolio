@@ -308,8 +308,8 @@ i{
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   display: block;
+  align-items: center;
 }
 .email,.linkedin{
   display: flex;
