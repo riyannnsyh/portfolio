@@ -97,18 +97,25 @@
   /* .......Start Contact........*/
   .contact-container {
     flex-direction: column;  
-    gap: 1rem;  
+    gap: 1rem;
+    font-size: small;
+  }
+  .email i{
+  font-size: 30px;
+  }
+  .email a{
+    font-size: medium;
   }
   /* .......Start footer........*/
   footer{
+    width: 100%;
     padding: 0;
     padding-bottom: 20px;
-    width: 90%;
     margin: auto;
     margin-top: 9rem;
   }
   footer .nav-links{
-    width: 100%;  
+    padding: 1.5rem;
     justify-content: space-between;  
   }
 }
