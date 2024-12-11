@@ -242,23 +242,10 @@ i{
 .arrow:hover{
   margin-top: 2rem;
 }
-/* .experience-container{
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  gap: 4rem;
-} */
 .experience-box{
   border: 1px solid var(--color-dark-variant);
   border-radius: 30px;
   padding: 24px;
-}
-.experience-box h2{
-  margin-bottom: 25px;
-  color: var(--color-white);
-  text-align: center;
-}
-.experience h4{
-  color: var(--color-white);
 }
 .experience{
   display: grid;
@@ -275,9 +262,10 @@ i{
 
 /* .......................Start Projects Section......................... */
 .project-container{
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3,1fr);
   gap: 30px;
+  width: 75%;
   overflow: hidden;
 }
 .project{
