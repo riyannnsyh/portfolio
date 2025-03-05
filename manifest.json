@@ -2,7 +2,7 @@
   "name": "My Portfolio",
   "short_name": "Portfolio",
   "description": "My personal portfolio showcasing my work and skills.",
-  "start_url": "/",
+  "start_url": "https://riyannnsyh.github.io/portfolio/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
